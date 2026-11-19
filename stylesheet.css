@@ -1,6 +1,9 @@
-/* #toplogo{ */
-  /* margin-top: 50px; */
-/* } */
+
+.container {
+  width: 100%;
+  /* max-width: 1100px; */
+  margin: auto;
+}
 
 header {
   position: relative;
@@ -11,16 +14,60 @@ header {
   height: auto;
 }
 
+body {
+  font-family: 'Bai Jamjuree';
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 600;
+}
+
 .toplogo {
-  position: absolute; 
+  position: absolute;
   width: 125px;
   height: auto;
 }
 
-#button-ios{
+#button-ios {
   background-color: hsl(171, 66%, 44%);
 }
 
-#button-mac{
+#button-mac {
   background-color: hsl(233, 100%, 69%);
 }
+
+#bottom-grey {
+  background-color: hsl(201, 11%, 66%);
+  width: 100%;
+}
+
+@media (min-width: 1024px) 
+  {
+    direction: flex-direction;
+    justify-content: column-wrap: ;: ;
+    align-items: center;
+        /* direction:rtl; */
+
+  }
+
+  /* @media (min-width: 320px) 
+  {
+    direction: flex-direction;
+    justify-content: column-wrap: ;: ;
+    align-items: center;
+    /* direction:rtl */
+  } */
+
