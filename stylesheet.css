@@ -54,14 +54,18 @@ h4 {
   width: 100%;
 }
 
-@media (min-width: 1024px) 
-  {
-    direction: flex-direction;
-    justify-content: column-wrap: ;: ;
-    align-items: center;
+@media (min-width: 1024px) {
+  .body{
+      display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+}
+
         /* direction:rtl; */
 
-  }
 
   /* @media (min-width: 320px) 
   {
@@ -69,5 +73,4 @@ h4 {
     justify-content: column-wrap: ;: ;
     align-items: center;
     /* direction:rtl */
-  } */
-
+  
