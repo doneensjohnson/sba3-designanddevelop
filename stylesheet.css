@@ -1,73 +1,26 @@
+/* #toplogo{ */
+  /* margin-top: 50px; */
+/* } */
 
-@font-face {
-  font-family: sans-serif;
-  font-weight: 200;
-  font-style: normal;
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
 }
 
-.bai-jamjuree-light {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+.toplogo {
+  position: absolute; 
+  width: 125px;
+  height: auto;
 }
 
-.bai-jamjuree-regular {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+#button-ios{
+  background-color: hsl(171, 66%, 44%);
 }
 
-.bai-jamjuree-medium {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.bai-jamjuree-semibold {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.bai-jamjuree-bold {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.bai-jamjuree-extralight-italic {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.bai-jamjuree-light-italic {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.bai-jamjuree-regular-italic {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.bai-jamjuree-medium-italic {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.bai-jamjuree-semibold-italic {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.bai-jamjuree-bold-italic {
-  font-family: "Bai Jamjuree", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
+#button-mac{
+  background-color: hsl(233, 100%, 69%);
 }

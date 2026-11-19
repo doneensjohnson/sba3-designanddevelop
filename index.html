@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./stylesheet.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
@@ -14,21 +15,26 @@
 </head>
 
 <body>
-  <main>
-    <div class="container d-flex flex-column justify-content-center align-items-center text-center min-vh-100">
-      <div class="col-sm-12 ">
-        <img src="./images/bg-header-desktop.png">
-        <img src="./images/logo.svg">
+  <header>
+  <img src="./images/bg-header-desktop.png" alt="background header" class="background">
+  <img src="./images/logo.svg" alt="logo" class="toplogo">
+</header>
 
-        <h1>A history of everything you copy </h1>
+  <main>
+    <div class="container d-flex flex-column justify-content-start align-items-center text-center min-vh-100"> 
+      <div class="col-sm-12">
+        </div> 
+        
+
+        <h1 >A history of everything you copy </h1>
 
         <p>Clipboard allows you to track and organize everything you copy. Instantly
           <br>
           access your clipboard on all your devices.
         </p>
 
-        <button type="button" class="btn btn-success"> Download for iOS </button>
-        <button>Download for Mac</button>
+        <button type="button" id="button-ios" class="btn  btn-success rounded-pill"> Download for iOS </button>
+        <button type="button" id="button-mac" class="btn  btn-success rounded-pill">Download for Mac</button>
 
         <br>
 
@@ -139,12 +145,9 @@
         <br>
         <div class="container d-flex flex-column justify-content-center align-items-center text-center min-vh-100">
       <div class="col-sm-12 ">
-        <button> 
-          Download for iOS
-        </button>
-        <button>
-          Download for Mac
-        </button>
+      <button type="button" id="button-ios" class="btn btn-info "> Download for iOS </button>
+        <button type="button" id="button-mac" class="btn btn-info">Download for Mac</button>
+
       </div>
         </div>
 
